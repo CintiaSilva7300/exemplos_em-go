@@ -45,4 +45,11 @@ func main() {
 		}
 		fmt.Println("Lido cada pedaço de 1 byte: ",string(buffer[:n])) //converte para string "slice de bytes" n é a posição do buffer
 	}
+
+	// err = os.Remove("arquivo.txt") //remove o arquivo
+	// if err != nil {
+	// 	panic(err)
+	// }
+
+	// fmt.Println("Arquivo removido com sucesso!")
 }

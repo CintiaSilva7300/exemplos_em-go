@@ -22,7 +22,6 @@ type ViaCEP struct { //site, coneverter json para struct(https://transform.tools
 func main() {
 	http.HandleFunc("/", BuscarCepHandelr) //definir a rota
 	http.ListenAndServe(":8080", nil)//definir a porta
-	
 }
 
 func BuscarCepHandelr(w http.ResponseWriter, r *http.Request) {
